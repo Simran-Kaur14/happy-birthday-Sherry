@@ -34,8 +34,8 @@ app.get("/letter", (req,res)  => {
   res.render("letter.ejs")
 });
 
-app.get("/photos", (req,res)  => {
-  res.render("photos.ejs")
+app.get("/flowers", (req,res)  => {
+  res.render("flowers.ejs")
 });
 
 app.get("/teddy", (req,res)  => {
